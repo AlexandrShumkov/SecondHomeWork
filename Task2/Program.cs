@@ -26,7 +26,8 @@ string[] RemoveOdd(string[] colors)
     return resultArr;
 }
 
-
+string[] colors2 = RemoveOdd(colors);
+PrintArray(colors2);
 
 
 
